@@ -27,7 +27,7 @@ function birdFrequency(arr){
         min.push(key)
        }
      })
-    
+    //  returning  the bird with lowest id
     return [Math.min(...max),Math.min(...min)]
     }
     let inp1= [1,1,2,2,4,4,4,4,5] 

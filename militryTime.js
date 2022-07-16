@@ -2,7 +2,7 @@
      function militryTime(timeStr){
         //       check for pm in time
                const pm =/pm/ig.test(timeStr)
-               
+              //  extract the numeric time only 
                const [time]=timeStr.split(/pm|am/ig)
         //        getting hours .minutes and second
                let [hours,min,sec]=time.split(":")
